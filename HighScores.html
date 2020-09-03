@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is the style links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- This is the title-->
+    <title>HighScores</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="Index.html">Code Quiz</a>
+      </nav>
+        <!-- grid layout design 2 + 8 + 2 column size and the content placed on middile column -->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+              <!-- Customer Div for content and timer -->
+              <div class="CustomDiv">
+                <div id="currentTime" span class="badge badge-warning"></span></div>
+                
+                <!-- Div for quiz content -->
+                <div id="questionsDiv">
+                    <h3>Highscores</h3>
+                    <ul id="highScore"></ul>
+                    <!-- Buttons -->
+                    <button type="button" class="btn btn-secondary"id="clear" value="reset">Clear Highscore</button>
+                </div>
+                </div>
+            </div>
+           <div class="col-sm-4"></div>
+          </div>
+        </div>
+       
+    </div>
+    <script src="HighScores.js"></script>
+</body>
+
+</html>
