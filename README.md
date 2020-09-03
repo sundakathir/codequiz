@@ -12,3 +12,7 @@ The following screenshot shows the behaviour of this applicaton
 3. Submitting ![codequiz](./Assets/3.SubmitScore.png)
 4. Final Score ![codequiz](./Assets/4.Scores.png)
 
+# published Url
+https://sundakathir.github.io/codequiz/
+
+
